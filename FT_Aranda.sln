@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT_Aranda.WEB", "FT_Aranda.WEB\FT_Aranda.WEB.csproj", "{90537D58-D70B-4355-BB12-269858432AB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{D7A75CCF-DAE5-4EE4-BEC6-456738E20D53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{31765EC1-8392-4648-9BF2-BE2376690081}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT_Aranda.API", "FT_Aranda.API\FT_Aranda.API.csproj", "{AF6E82A9-98CA-4478-BD90-35CD4450B187}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FT_Aranda.SQLReposity", "FT_Aranda.SQLReposity\FT_Aranda.SQLReposity.csproj", "{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FT_Aranda.Models", "FT_Aranda.Models\FT_Aranda.Models.csproj", "{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90537D58-D70B-4355-BB12-269858432AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90537D58-D70B-4355-BB12-269858432AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90537D58-D70B-4355-BB12-269858432AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90537D58-D70B-4355-BB12-269858432AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6E82A9-98CA-4478-BD90-35CD4450B187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6E82A9-98CA-4478-BD90-35CD4450B187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6E82A9-98CA-4478-BD90-35CD4450B187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6E82A9-98CA-4478-BD90-35CD4450B187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90537D58-D70B-4355-BB12-269858432AB8} = {31765EC1-8392-4648-9BF2-BE2376690081}
+		{AF6E82A9-98CA-4478-BD90-35CD4450B187} = {D7A75CCF-DAE5-4EE4-BEC6-456738E20D53}
+		{7FB0ED9C-897A-4BDC-B7FF-352AC2E05D5E} = {D7A75CCF-DAE5-4EE4-BEC6-456738E20D53}
+		{99FBB7CC-E23A-4B2F-86CE-CEE367C71B07} = {D7A75CCF-DAE5-4EE4-BEC6-456738E20D53}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25894782-CB45-41B8-BB76-1A43B6F5374D}
+	EndGlobalSection
+EndGlobal
